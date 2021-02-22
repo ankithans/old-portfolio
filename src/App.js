@@ -1,9 +1,10 @@
 import { Name, Body, Social, Techstack } from "./components";
+import Particles from "react-tsparticles";
 
 function App() {
   return (
     <div>
-      <div className="bg-gray-900 h-screen pl-40 pr-40">
+      <div className="h-screen pl-40 pr-40">
         <Name />
         <Body />
 
