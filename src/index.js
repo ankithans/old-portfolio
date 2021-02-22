@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Particles from "react-tsparticles";
-import { Techstack } from "./components";
 
 ReactDOM.render(
   <React.StrictMode>
