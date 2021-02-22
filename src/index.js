@@ -89,7 +89,7 @@ ReactDOM.render(
             value: 0.5,
           },
           shape: {
-            type: "circle",
+            type: "triangle",
           },
           size: {
             random: true,

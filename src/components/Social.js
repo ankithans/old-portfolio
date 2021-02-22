@@ -18,7 +18,6 @@ export default function Social() {
       <AiFillTwitterCircle className="text-gray-400 text-3xl" />
       <AiFillMediumCircle className="text-gray-400 text-3xl" />
       <AiFillInstagram className="text-gray-400 text-3xl" />
-      <AiFillFacebook className="text-gray-400 text-3xl" />
     </div>
   );
 }
