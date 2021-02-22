@@ -10,7 +10,7 @@ import {
 
 export default function Social() {
   return (
-    <div className="pl-20 pt-32 flex flex-row space-x-6">
+    <div className="pl-7 pr-5 lg:pl-20 pt-32 flex flex-row space-x-6">
       <AiFillMail className="text-gray-400 text-3xl" />
 
       <AiFillGithub className="text-gray-400 text-3xl" />
