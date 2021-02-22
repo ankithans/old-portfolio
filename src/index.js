@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Particles from "react-tsparticles";
+import { Techstack } from "./components";
 
 ReactDOM.render(
   <React.StrictMode>
     <Particles
-      className="h-screen"
+      className="h-screen w-screen"
       id="tsparticles"
       options={{
         background: {
@@ -99,7 +100,7 @@ ReactDOM.render(
       }}
     />
     <div
-      className="h-screen"
+      className="h-screen w-screen"
       style={{
         position: "absolute",
         top: 0,
