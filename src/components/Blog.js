@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import parse from "html-react-parser";
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -27,20 +26,21 @@ export default function Blog() {
       </div>
       <div className="flex flex-wrap pl-5 pr-5">
         {blogs.map((b, i) => (
-          <div key={i} className="p-4 md:w-1/3 sm:mb-0 mb-6 hover:opacity-80">
+          <div key={i} className="p-5 md:w-1/3 sm:mb-0 mb-6 hover:opacity-80">
             <a target="_blank" href={b.link}>
-              <div className="rounded-lg h-64 overflow-hidden">
+              <div className="rounded-lg h-60 overflow-hidden">
                 <img
                   alt="content"
                   className="object-cover object-center h-full w-full opacity-80"
                   src={b.thumbnail}
                 />
               </div>
-              <h2 className="text-xl font-medium title-font text-gray-300 mt-5">
-                {b.title}
+              <h2 className="text-xl font-semibold title-font text-gray-300 mt-5">
+                {b.title.substring(0, 30) + "..."}
               </h2>
-              <p className="text-base text-gray-400 leading-relaxed mt-2">
-                {parse(b.description.substring(0, 200))}
+              <p className="text-base text-gray-400  text-justify mt-2">
+                {b.description.replace(/<[^>]+>/g, "").substring(0, 150) +
+                  "...."}
               </p>
             </a>
           </div>
