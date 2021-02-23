@@ -35,10 +35,10 @@ export default function Blog() {
                   src={b.thumbnail}
                 />
               </div>
-              <h2 className="text-xl font-medium title-font text-gray-300 mt-5">
+              <h2 className="text-xl body-font font-medium title-font text-gray-300 mt-5">
                 {b.title.substring(0, 30) + "..."}
               </h2>
-              <p className="text-base text-gray-400  text-justify mt-2">
+              <p className="text-base body-font text-gray-400  text-justify mt-2">
                 {b.description.replace(/<[^>]+>/g, "").substring(0, 150) +
                   "...."}
               </p>
