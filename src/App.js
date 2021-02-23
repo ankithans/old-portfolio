@@ -1,4 +1,4 @@
-import { Name, Body, Social, Techstack } from "./components";
+import { Name, Body, Social, Techstack, Blog } from "./components";
 
 function App() {
   return (
@@ -11,6 +11,10 @@ function App() {
       </div>
       <div className="bg-gray-800 w-screen lg:pl-48 md:pl-20 lg:pr-40 md:pr-20">
         <Techstack />
+      </div>
+
+      <div className="bg-gray-900 w-screen lg:pl-48 md:pl-20 pt-20 lg:pr-40 md:pr-20">
+        <Blog />
       </div>
     </div>
   );
