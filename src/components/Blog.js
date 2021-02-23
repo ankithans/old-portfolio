@@ -21,7 +21,7 @@ export default function Blog() {
 
   return (
     <>
-      <div className="text-gray-300 overflow-y-hidden pb-10 text-3xl lg:text-4xl body-font font-medium pl-7 lg:pl-10">
+      <div className="text-gray-300  overflow-y-hidden pb-10 text-3xl lg:text-4xl body-font font-medium pl-7 lg:pl-10">
         My Recently Published Blogs
       </div>
       <div className="flex flex-wrap pl-5 pr-5">
@@ -35,7 +35,7 @@ export default function Blog() {
                   src={b.thumbnail}
                 />
               </div>
-              <h2 className="text-xl font-semibold title-font text-gray-300 mt-5">
+              <h2 className="text-xl font-medium title-font text-gray-300 mt-5">
                 {b.title.substring(0, 30) + "..."}
               </h2>
               <p className="text-base text-gray-400  text-justify mt-2">
