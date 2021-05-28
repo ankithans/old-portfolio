@@ -36,7 +36,7 @@ export default function Techstack() {
 
         <SiGraphql className="text-gray-400 text-5xl pl-5 pt-5" />
         <DiMongodb className="text-gray-400 text-5xl pl-5 pt-5" />
-        <SiKubernetes className="text-gray-400 text-5xl pl-5 pt-5" />
+        {/* <SiKubernetes className="text-gray-400 text-5xl pl-5 pt-5" /> */}
         <SiPostgresql className="text-gray-400 text-5xl pl-5 pt-5" />
         <DiGoogleCloudPlatform className="text-gray-400 text-5xl pl-5 pt-5" />
         <FaAws className="text-gray-400 text-5xl pl-5 pt-5" />
